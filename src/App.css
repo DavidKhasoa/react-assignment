@@ -1,0 +1,77 @@
+.profile-photo {
+    border-radius: 50%;
+    overflow: hidden;
+    margin-bottom: 20px;
+    height: 300px;
+    width: 300px;
+    border: 5px solid #000000;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background-color: #f7f3ee;
+    padding: 20px;
+}
+
+.socials-list {
+    display: flex;
+    gap: 15px;
+    margin-top: 20px;
+    justify-content: space-between;
+    list-style: none;
+    color: #015D47;
+}
+
+.Skills h2 {
+    text-transform: capitalize;
+    font-weight: 600;
+    color: #015D47;
+}
+
+.bio {
+    text-align: center;
+    max-width: 720px;
+    margin: 0 auto 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(1, 93, 71, 0.35);
+    color: #015D47;
+}
+
+.Skills {
+    width: 100%;
+    max-width: 720px;
+    margin: 0 auto 20px;
+    padding-bottom: 15px;
+    border-bottom: 2px solid rgba(1, 93, 71, 0.35);
+}
+
+.Socials {
+    border-bottom: none;
+}
+
+.skills-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    justify-content: center;
+    list-style: none;
+    padding: 0;
+    color: #015D47;
+}
+
+.App-header h1 {
+    padding: 20px;
+    text-align: center;
+    color: #015D47;
+    font-weight: 700;
+    text-transform: capitalize;
+}
+
+.socials-list li:hover {
+    transform: brightness(1.2);
+    transition: transform 0.3s ease;
+}
